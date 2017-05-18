@@ -17,7 +17,7 @@ namespace NavajaSuiza.Aplicación_3
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void RealizarApl3(object sender, EventArgs e)
         {
             int numero, exponente, resultado, i;
 

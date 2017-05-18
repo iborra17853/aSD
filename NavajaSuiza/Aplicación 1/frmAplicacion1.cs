@@ -17,7 +17,7 @@ namespace NavajaSuiza.Aplicación_1
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void ComprobarPrimos(object sender, EventArgs e)
         {
             int numero, contador, i;
             contador = 0;

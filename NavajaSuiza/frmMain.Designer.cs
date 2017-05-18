@@ -30,10 +30,10 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmMain));
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
+            this.BotonApl1 = new System.Windows.Forms.Button();
+            this.BotonApl4 = new System.Windows.Forms.Button();
+            this.BotonApl3 = new System.Windows.Forms.Button();
+            this.BotonApl2 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -47,58 +47,58 @@
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
-            // button1
+            // BotonApl1
             // 
-            this.button1.Location = new System.Drawing.Point(36, 50);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(122, 69);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "Aplicación 1";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.BotonApl1.Location = new System.Drawing.Point(36, 50);
+            this.BotonApl1.Name = "BotonApl1";
+            this.BotonApl1.Size = new System.Drawing.Size(122, 69);
+            this.BotonApl1.TabIndex = 1;
+            this.BotonApl1.Text = "Aplicación 1";
+            this.BotonApl1.UseVisualStyleBackColor = true;
+            this.BotonApl1.Click += new System.EventHandler(this.BotonAplicacion1);
             // 
-            // button2
+            // BotonApl4
             // 
-            this.button2.Location = new System.Drawing.Point(486, 283);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(122, 69);
-            this.button2.TabIndex = 2;
-            this.button2.Text = "Aplicación 4";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.BotonApl4.Location = new System.Drawing.Point(486, 283);
+            this.BotonApl4.Name = "BotonApl4";
+            this.BotonApl4.Size = new System.Drawing.Size(122, 69);
+            this.BotonApl4.TabIndex = 2;
+            this.BotonApl4.Text = "Aplicación 4";
+            this.BotonApl4.UseVisualStyleBackColor = true;
+            this.BotonApl4.Click += new System.EventHandler(this.BotonAplicacion4);
             // 
-            // button3
+            // BotonApl3
             // 
-            this.button3.Location = new System.Drawing.Point(36, 283);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(122, 69);
-            this.button3.TabIndex = 3;
-            this.button3.Text = "Aplicación 3";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.BotonApl3.Location = new System.Drawing.Point(36, 283);
+            this.BotonApl3.Name = "BotonApl3";
+            this.BotonApl3.Size = new System.Drawing.Size(122, 69);
+            this.BotonApl3.TabIndex = 3;
+            this.BotonApl3.Text = "Aplicación 3";
+            this.BotonApl3.UseVisualStyleBackColor = true;
+            this.BotonApl3.Click += new System.EventHandler(this.BotonAplicacion3);
             // 
-            // button4
+            // BotonApl2
             // 
-            this.button4.Location = new System.Drawing.Point(495, 50);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(122, 69);
-            this.button4.TabIndex = 4;
-            this.button4.Text = "Aplicación 2";
-            this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
+            this.BotonApl2.Location = new System.Drawing.Point(495, 50);
+            this.BotonApl2.Name = "BotonApl2";
+            this.BotonApl2.Size = new System.Drawing.Size(122, 69);
+            this.BotonApl2.TabIndex = 4;
+            this.BotonApl2.Text = "Aplicación 2";
+            this.BotonApl2.UseVisualStyleBackColor = true;
+            this.BotonApl2.Click += new System.EventHandler(this.BotonAplicacion2);
             // 
             // frmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(638, 375);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.BotonApl2);
+            this.Controls.Add(this.BotonApl3);
+            this.Controls.Add(this.BotonApl4);
+            this.Controls.Add(this.BotonApl1);
             this.Controls.Add(this.pictureBox1);
             this.Name = "frmMain";
-            this.Text = "wwwdvvvvvv";
+            this.Text = "Navaja Suiza";
             this.Load += new System.EventHandler(this.frmMain_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
@@ -108,10 +108,10 @@
         #endregion
 
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button BotonApl1;
+        private System.Windows.Forms.Button BotonApl4;
+        private System.Windows.Forms.Button BotonApl3;
+        private System.Windows.Forms.Button BotonApl2;
     }
 }
 

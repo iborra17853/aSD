@@ -28,26 +28,28 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.BBserie = new System.Windows.Forms.Button();
+            this.ResultadoApl3 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // BBserie
+            // ResultadoApl3
             // 
-            this.BBserie.Location = new System.Drawing.Point(198, 147);
-            this.BBserie.Name = "BBserie";
-            this.BBserie.Size = new System.Drawing.Size(151, 98);
-            this.BBserie.TabIndex = 0;
-            this.BBserie.Text = "Serie y suma de múltiplos de 3";
-            this.BBserie.UseVisualStyleBackColor = true;
-            this.BBserie.Click += new System.EventHandler(this.BBserie_Click);
+            this.ResultadoApl3.Location = new System.Drawing.Point(132, 96);
+            this.ResultadoApl3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.ResultadoApl3.Name = "ResultadoApl3";
+            this.ResultadoApl3.Size = new System.Drawing.Size(101, 64);
+            this.ResultadoApl3.TabIndex = 0;
+            this.ResultadoApl3.Text = "Serie y suma de múltiplos de 3";
+            this.ResultadoApl3.UseVisualStyleBackColor = true;
+            this.ResultadoApl3.Click += new System.EventHandler(this.RealizarApl3);
             // 
-            // Form1
+            // FrmAplicacion4
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(566, 389);
-            this.Controls.Add(this.BBserie);
-            this.Name = "Form1";
+            this.ClientSize = new System.Drawing.Size(377, 253);
+            this.Controls.Add(this.ResultadoApl3);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Name = "FrmAplicacion4";
             this.Text = "Ejercicio 26";
             this.ResumeLayout(false);
 
@@ -55,7 +57,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Button BBserie;
+        private System.Windows.Forms.Button ResultadoApl3;
     }
 }
 
