@@ -69,7 +69,7 @@
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label1);
             this.Name = "FrmAplicacion2";
-            this.Text = "Form1";
+            this.Text = "Numero";
             this.ResumeLayout(false);
             this.PerformLayout();
 
